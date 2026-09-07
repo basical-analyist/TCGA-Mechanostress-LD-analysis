@@ -1,0 +1,41 @@
+"Cohort","Test","X","Y","N","Spearman_rho","Raw_P_value","Heatmap_row","BH_FDR_global_12_tests","Raw_P_significance","Label_P","Label_stars","Label_colour"
+"CRC","Mechanostress_vs_LD_buffering","Mechanostress","LD_buffering",592,0.176715323536101,1.52765615105029e-05,"LD buffering",2.6188391160862e-05,"****","ρ = 0.177
+P = 1.5e-05","ρ = 0.177
+****","black"
+"CRC","Mechanostress_vs_Turnover","Mechanostress","Turnover",592,0.241622722867533,2.60127795844184e-09,"Turnover competence",7.80383387532553e-09,"****","ρ = 0.242
+P = 2.6e-09","ρ = 0.242
+****","black"
+"CRC","Mechanostress_vs_Adjusted_LD_excess","Mechanostress","Adjusted_LD_excess",592,0.154761951583585,0.000156600664940795,"Adjusted LD excess
+[Z(regression residual)]",0.000234900997411193,"***","ρ = 0.155
+P = 0.0002","ρ = 0.155
+***","black"
+"LUAD","Mechanostress_vs_LD_buffering","Mechanostress","LD_buffering",510,0.105979600979989,0.0166553131701309,"LD buffering",0.0181694325492337,"*","ρ = 0.106
+P = 0.0167","ρ = 0.106
+*","black"
+"LUAD","Mechanostress_vs_Turnover","Mechanostress","Turnover",510,0.264430760866394,1.31685652406998e-09,"Turnover competence",5.26742609627993e-09,"****","ρ = 0.264
+P = 1.3e-09","ρ = 0.264
+****","black"
+"LUAD","Mechanostress_vs_Adjusted_LD_excess","Mechanostress","Adjusted_LD_excess",510,0.0877719637522636,0.047576570523147,"Adjusted LD excess
+[Z(regression residual)]",0.047576570523147,"*","ρ = 0.088
+P = 0.0476","ρ = 0.088
+*","black"
+"BRCA","Mechanostress_vs_LD_buffering","Mechanostress","LD_buffering",1082,0.296028231400359,2.51971901612026e-23,"LD buffering",3.02366281934431e-22,"****","ρ = 0.296
+P = 2.5e-23","ρ = 0.296
+****","black"
+"BRCA","Mechanostress_vs_Turnover","Mechanostress","Turnover",1082,0.0941827165421798,0.00192647314308678,"Turnover competence",0.00256863085744903,"**","ρ = 0.094
+P = 0.0019","ρ = 0.094
+**","black"
+"BRCA","Mechanostress_vs_Adjusted_LD_excess","Mechanostress","Adjusted_LD_excess",1082,0.274153147724757,4.15248519626933e-20,"Adjusted LD excess
+[Z(regression residual)]",2.49149111776159e-19,"****","ρ = 0.274
+P = 4.2e-20","ρ = 0.274
+****","black"
+"SKCM","Mechanostress_vs_LD_buffering","Mechanostress","LD_buffering",443,0.221803379020216,2.42809790445585e-06,"LD buffering",4.8561958089117e-06,"****","ρ = 0.222
+P = 2.4e-06","ρ = 0.222
+****","black"
+"SKCM","Mechanostress_vs_Turnover","Mechanostress","Turnover",443,0.262880302649258,1.94931269929816e-08,"Turnover competence",4.67835047831558e-08,"****","ρ = 0.263
+P = 1.9e-08","ρ = 0.263
+****","black"
+"SKCM","Mechanostress_vs_Adjusted_LD_excess","Mechanostress","Adjusted_LD_excess",443,0.144627155781053,0.00227695278266625,"Adjusted LD excess
+[Z(regression residual)]",0.0027323433391995,"**","ρ = 0.145
+P = 0.0023","ρ = 0.145
+**","black"

@@ -1,0 +1,3 @@
+"Cohort","Test","X","Y","N","Spearman_rho","Raw_P_value"
+"BRCA","Turnover_vs_LD_buffering","Turnover","LD_buffering",1082,0.305549178598726,8.14680756857063e-25
+"BRCA","Mechanostress_vs_Adjusted_LD_excess","Mechanostress","Adjusted_LD_excess",1082,0.274153147724757,4.15248519626933e-20
