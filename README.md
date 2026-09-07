@@ -1,4 +1,5 @@
 # TCGA PanCancer Atlas mechanostress and lipid-droplet analysis
+[![DOI](https://zenodo.org/badge/1359819872.svg)](https://doi.org/10.5281/zenodo.22640778)
 
 This repository contains the R code used to generate BRCA
 scatter plots and four-cohort correlation heatmaps based on
@@ -84,3 +85,7 @@ Three heatmap versions are generated:
 1. Color only
 2. Spearman rho and raw P-value
 3. Spearman rho and raw-P significance stars
+
+## Citation
+
+Lee, Jeong Uk. (2026). *TCGA Mechanostress and Lipid-Droplet Analysis* (Version v1.0.0) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.22640779
