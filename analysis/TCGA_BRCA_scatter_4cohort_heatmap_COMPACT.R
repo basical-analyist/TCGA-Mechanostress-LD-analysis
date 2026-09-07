@@ -365,14 +365,9 @@ scatter_individuals <- list(
 for (nm in names(scatter_individuals)) {
   print(scatter_individuals[[nm]])
   stem <- file.path(out_dir, nm)
-  ggsave(
-    paste0(stem, ".pdf"),
-    scatter_individuals[[nm]],
-    device = grDevices::cairo_pdf,
-    width = 6.8,
-    height = 5.4,
-    units = "in"
-  )
+  ggsave(paste0(stem, ".pdf"), scatter_individuals[[nm]],
+         device = grDevices::cairo_pdf,
+         width = 6.8, height = 5.4, units = "in")
   ggsave(paste0(stem, ".png"), scatter_individuals[[nm]],
          width = 6.8, height = 5.4, units = "in", dpi = 600, bg = "white")
 }
@@ -472,14 +467,9 @@ heatmaps <- list(
 for (nm in names(heatmaps)) {
   print(heatmaps[[nm]])
   stem <- file.path(out_dir, paste0("02_4cohort_heatmap_", nm))
-  ggsave(
-    paste0(stem, ".pdf"),
-    heatmaps[[nm]],
-    device = grDevices::cairo_pdf,
-    width = 8.2,
-    height = 4.9,
-    units = "in"
-  )
+  ggsave(paste0(stem, ".pdf"), heatmaps[[nm]],
+         device = grDevices::cairo_pdf,
+         width = 8.2, height = 4.9, units = "in")
   ggsave(paste0(stem, ".png"), heatmaps[[nm]],
          width = 8.2, height = 4.9, units = "in", dpi = 600, bg = "white")
 }
